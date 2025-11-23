@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="">
+    <div class="w-full h-screen flex items-center justify-center gap-20">
+        
+        <div class=" p-10 rounded-md border-1 border-gray-600 space-y-10 relative ">
+            <div class="space-y-5 mt-10 ">
+                    <!-- <h1  class="absolute top-5 bg-red-200  w-auto pl-2 pr-2 rounded-sm "></h1> -->
+                    <h1 id="error" class=" bg-gray-300 p-1 rounded-md text-center font-mono border-1 border-gray-600">TODO-LIST</h1>
+                <div class="space-x-2 flex ">
+                    <input type="text" placeholder="Text here"  name="" id="input" class=" border-1 p-1 w-full outline-none border-gray-200 rounded-md text-sm font-mono capitalize">
+                    <img src="images/create.svg"  id="addbtn"  class="size-8 hover:bg-gray-200  rounded-md cursor-pointer " alt="">
+
+                </div>
+
+            </div>
+
+            <div class="space-y-3 " >
+                <ul id="task-list" class=" space-y-5 capitalize text-lg font-mono">
+                    
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="todoApp.js"></script>
+</body>
+</html>
